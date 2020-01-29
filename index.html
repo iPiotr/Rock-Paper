@@ -2,17 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Hangman</title>
+    <title>Rock Paper Scissors</title>
 </head>
-<body>
-    
-    <div id="letter" class="letter"></div>
-    <p></p>
-    <button id="reset" class="button">Reset</button>
 
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1>Rock Paper Scissors</h1>
+            <div id="score" class="score">
+                <p>Player: 0</p>
+                <p>Computer: 0</p>
+            </div>
+        </header>
+        <h2>Make Your Selection</h2>
+        <div class="choices">
+            <i title="Rock" id="rock" class="choice fas a fa-hand-rock fa-10x"></i>
+            <i title="Paper" id="paper" class="choice fas fa-hand-paper fa-10x"></i>
+            <i title="Scissors" id="scissors" class="choice fas fa-hand-scissors fa-10x"></i>
+        </div>
+    </div>
 </body>
+
 </html>
