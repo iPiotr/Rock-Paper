@@ -33,17 +33,18 @@ body {
 .score p:first-child {
   background: #5a7bb9;
   border-radius: 2rem;
+  width: 20rem;
+  margin: 0 auto;
+  text-align: center;
   padding: 5px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 .score p:last-child {
-    background: #4b49c7;
-    border-radius: 2rem;
-    padding: 5px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+  background: #4b49c7;
+  border-radius: 2rem;
+  padding: 5px;
+  width: 20rem;
+  margin: 0 auto;
 }
 
 .choices {
@@ -55,4 +56,30 @@ body {
 .choice:hover {
     cursor: pointer;
     color: #858585;
+  }
+  
+  .restart-btn {
+  display: none;
+  background: #858585;
+  color: #333;
+  padding: 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin: 1.5rem;
+  border-radius: 20px;
+}
+
+.restart-btn:hover {
+  background: #adadad;
+  color: #dddddd;
+}
+
+.text-win {
+  color: #28a745;
+}
+
+.text-lose {
+  color: #dc3545;
 }
